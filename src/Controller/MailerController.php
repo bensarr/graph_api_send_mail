@@ -21,7 +21,7 @@ class MailerController extends AbstractController
         $subject = "This is a Subject";
         $body = "This is the Mail Body";
         $name = "El Hadji Hady SARR";
-        $email = "hady@welingaron.com";
+        $email = "";
         $mailBody = array( "Message" => array(
             "subject" => $subject,
             "body" => array(
